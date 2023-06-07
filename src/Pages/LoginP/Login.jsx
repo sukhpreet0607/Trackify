@@ -1,12 +1,6 @@
 import React from "react";
 import Typography from "@mui/material/Typography";
-import LoginCard from "../component/LoginCard";
-// import styled from 'styled-components';
-// import PropTypes from 'prop-types';
-
-// const propTypes = {};
-
-// const defaultProps = {};
+import {LoginCard} from "C://Users//gurve//My Projects//devrack//src//Component//index";
 
 const Login = () => {
     
@@ -40,7 +34,8 @@ const Login = () => {
       >
         Sign in to DevRack
       </Typography>
-      <LoginCard />
+      <LoginCard/>
+      
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import Login from "./page/Login";
+import {Login} from "./Pages/index";
 // import { ThemeProvider } from "@material-ui/styles";
 // import { createTheme } from "@material-ui/core/styles";
 import "./App.css";
@@ -24,7 +24,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Login />
+      <Login/>
       {/* <ThemeProvider theme={theme}>
       <Login/>
     </ThemeProvider> */}
