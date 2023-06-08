@@ -2,7 +2,7 @@ import React from "react";
 import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
 import Link from "@mui/material/Link";
-import { LoginCard } from "C://Users//gurve//My Projects//devrack//src//Component//index";
+import { LoginCard } from "C://Users//gurve//My Projects//devrack//Frontend//src//Component//index";
 
 const Login = () => {
   const DivStyle = {
