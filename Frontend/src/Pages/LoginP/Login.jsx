@@ -9,13 +9,14 @@ const Login = () => {
     backgroundColor: "#000028",
     width: "100%",
     height: "100vh",
+    textAlign:"center"
   };
 
   const ImgStyle = {
     width: "74px",
     height: "74px",
     display: "inline-block",
-    margin: "35px auto 0px auto",
+    marginTop: "35px"
   };
 
   return (
@@ -28,8 +29,7 @@ const Login = () => {
       <br />
       <Typography
         fontSize="2rem"
-        color="white"
-        align="center"
+        color="whitesmoke"
         display="inline-block"
         gutterBottom
       >

@@ -1,18 +1,20 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from "react";
 
 const Home = () => {
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    fetch("http://localhost:5000/users")
+      .then((res) => res.json())
+      .then((data) => setData(data))
+      .catch((err) => console.log(err));
+  }, []);
 
-    useEffect(()=>{
-        fetch('http://localhost:5000/users')
-        .then(res=> res.json)
-        .then(data=> console.log(data))
-        .catch(err=> console.log(err));
+  return (
+    <>
+      
+    </>
+  );
+};
 
-    },[]);
-
-    return <div>
-
-    </div>;
-}
 
 export default Home;
